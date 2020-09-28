@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1601308526763" clover="3.2.0">
+  <project timestamp="1601308526763" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9" elements="55" coveredelements="55" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
+    <file name="modules.js" path="/Users/marthasimmons/code/restraunts/modules.js">
+      <metrics statements="26" coveredstatements="26" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="44" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="54" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="67" count="2" type="cond" truecount="8" falsecount="0"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

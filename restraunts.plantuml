@@ -1,0 +1,58 @@
+@startuml
+
+class Restraunt {
+    restraunts: Array<Restraunt>
+    ..
+    name: STRING
+    description: STRING
+    image: STRING
+    menus: Array<Menu>
+    tables: Array<Table>
+    --
+    constructor()
+    addMenu()
+    addTable()
+    removeMenu()
+    removeTable()
+}
+
+class Menu{
+    name: STRING
+    items: Array<Item>
+    --
+    constructor()
+    addItem()
+    removeItem()
+}
+
+class Item{
+    name: STRING
+    description: STRING
+    price: FLOAT
+    --
+    constructor()
+}
+
+class Table{
+    number: INTEGER
+    bookings: Array<Booking> 
+    --
+    constructor()
+    book()
+}
+
+Class Booking{
+    name: STRING
+    date: Date()
+    table: TABLE
+    --
+    constructor()
+}
+
+Restraunt--{Menu
+Menu--{Item
+Restraunt--{Table
+Table--{Booking
+
+
+@enduml
